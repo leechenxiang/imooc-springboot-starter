@@ -20,11 +20,11 @@ public class UserContoller {
 	public User getUser() {
 		
 		User u = new User();
-		u.setName("imooc");
+		u.setName("imooc2");
 		u.setAge(18);
 		u.setBirthday(new Date());
-		u.setPassword("imooc");
-		u.setDesc("hello imooc~~");
+		u.setPassword("imooc2");
+		u.setDesc("hello imooc2~~");
 		
 		return u;
 	}
@@ -38,7 +38,7 @@ public class UserContoller {
 		u.setAge(18);
 		u.setBirthday(new Date());
 		u.setPassword("imooc");
-		u.setDesc("hello imooc~~");
+		u.setDesc("hello imooc~~hello imooc~~");
 		
 		return IMoocJSONResult.ok(u);
 	}

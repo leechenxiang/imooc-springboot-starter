@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.imooc.mapper.SysUserMapperCustom" >
+  
+  <!-- 查询简单的用户信息 -->
+	<select id="queryUserSimplyInfoById" resultType="com.imooc.pojo.SysUser" 
+										 parameterType="java.lang.String" >
+	    select 
+	    	*
+	    from 
+	    	sys_user
+	    where 
+	    	id = #{id,jdbcType=VARCHAR}
+	</select>
+</mapper>

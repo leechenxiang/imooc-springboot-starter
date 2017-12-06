@@ -20,5 +20,5 @@ public interface UserService {
 
 	public SysUser queryUserByIdCustom(String userId);
 	
-//	public void saveUserTransactional(SysUser user);
+	public void saveUserTransactional(SysUser user);
 }

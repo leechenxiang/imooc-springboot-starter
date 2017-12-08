@@ -33,6 +33,6 @@ public class AsyncTask {
         Thread.sleep(600);
         long end = System.currentTimeMillis();
         System.out.println("任务3耗时:" + (end - start) + "毫秒");
-        return new AsyncResult<>(true);
+        return new AsyncResult<>(true); 
     }
 }

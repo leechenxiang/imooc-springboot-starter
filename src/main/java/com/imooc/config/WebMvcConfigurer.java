@@ -15,9 +15,9 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 		/**
 		 * 拦截器按照顺序执行
 		 */
-		registry.addInterceptor(new OneInterceptor()).addPathPatterns("/one/**")
-													 .addPathPatterns("/two/**");
-		registry.addInterceptor(new TwoInterceptor()).addPathPatterns("/two/**");
+		registry.addInterceptor(new TwoInterceptor()).addPathPatterns("/two/**")
+													 .addPathPatterns("/one/**");
+		registry.addInterceptor(new OneInterceptor()).addPathPatterns("/one/**");
 		
 		super.addInterceptors(registry);
 	}

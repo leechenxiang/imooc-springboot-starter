@@ -28,6 +28,13 @@ public class UserServiceImpl implements UserService {
 	@Override
 	@Transactional(propagation = Propagation.REQUIRED)
 	public void saveUser(SysUser user) throws Exception {
+		
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		userMapper.insert(user);
 	}
 
@@ -47,12 +54,25 @@ public class UserServiceImpl implements UserService {
 	@Override
 	@Transactional(propagation = Propagation.SUPPORTS)
 	public SysUser queryUserById(String userId) {
+		
+		try {
+			Thread.sleep(6000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		return userMapper.selectByPrimaryKey(userId);
 	}
 
 	@Override
 	@Transactional(propagation = Propagation.SUPPORTS)
 	public List<SysUser> queryUserList(SysUser user) {
+		
+		try {
+			Thread.sleep(11000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 		Example example = new Example(SysUser.class);
 		Example.Criteria criteria = example.createCriteria();

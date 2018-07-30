@@ -2,6 +2,8 @@
 
 
 ## 优质课程推荐 我们也致力于技术视频的录制，希望大家学到更多的技术...<br />
+
+[《springboot + netty + mui 仿微信全栈 高性能后台+移动客户端》](https://coding.imooc.com/class/261.html)<br />
 [《SpringBoot 仿抖音短视频小程序开发 全栈式实战项目》](https://coding.imooc.com/class/217.html)<br />
 [《SpringBoot 极速入门之开发常用技术整合》](https://www.imooc.com/learn/956)<br />
 [《ZooKeeper分布式专题与Dubbo微服务入门》](https://coding.imooc.com/class/201.html)<br />

@@ -1,4 +1,11 @@
+# 新版2.x更新
+目前已经升级为SpringBoot2.x 基于新版的SpringBoot极速入门与整合，链接地址为：https://github.com/leechenxiang/SpringBoot2.x-Learn 相关文档以及录制视频后续也会陆续上传
+<img width="400" alt="公众号底部二维码" src="https://user-images.githubusercontent.com/15144005/110226986-8c0fc900-7f2e-11eb-8382-62903a175223.png">
+
+![公众号底部知识星球二维码](https://user-images.githubusercontent.com/15144005/110226987-8d40f600-7f2e-11eb-9f7f-7b4524e7341f.JPG)
+
 ### 扫一扫关注我们 加入QQ群（1313974）或者关注公众号获得更多技术咨询、技术交流、技术资源...<br />
+
 
 
 ## 优质课程推荐 我们也致力于技术视频的录制，希望大家学到更多的技术...<br />
